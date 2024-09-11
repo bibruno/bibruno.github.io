@@ -963,3 +963,30 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+.image-container {
+  display: flex; /* Muda para flex para melhor controle */
+  flex-wrap: wrap; /* Permite que os itens quebrem em novas linhas */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  margin: 17px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out; /* Adiciona transição para efeito suave */
+}
+
+.image-container img:hover {
+  transform: scale(1.1); 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Diminui a sombra */
+}
+.embla__slide .item-img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #ddd;
+}
