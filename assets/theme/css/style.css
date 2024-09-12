@@ -964,9 +964,10 @@ blockquote {
 	left: -2400px;
 }
 .image-container {
-  display: flex; /* Muda para flex para melhor controle */
-  flex-wrap: wrap; /* Permite que os itens quebrem em novas linhas */
-  justify-content: center; /* Centraliza os itens horizontalmente */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   border: 2px solid black;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.6);
@@ -976,17 +977,26 @@ blockquote {
 img {
   width: 100px;
   margin: 17px;
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
-  transition: all 0.3s ease-in-out; /* Adiciona transição para efeito suave */
+ box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
 }
 
-.image-container img:hover {
-  transform: scale(1.1); 
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Diminui a sombra */
-}
-.embla__slide .item-img:hover {
-  opacity: 0.8;
+/* Estilo geral para hover, pode ser sobreposto por estilos mais específicos */
+img:hover {
   transform: scale(1.1);
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  border: 2px solid #ddd;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #ddd; /* Cor da borda no hover */
+  opacity: 0.8; /* Efeito de fade no hover */
+}
+
+/* Estilo esp8cífico para a classe embla__slide .item-img, se necessário */
+.embla__slide .item-img {
+  /* Aqui você pode adicionar estilos específicos para essa classe, se necessário */
+}
+
+/* Wrapper para centralizar o conteúdo */
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
