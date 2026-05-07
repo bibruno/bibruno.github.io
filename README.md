@@ -36,7 +36,7 @@ Contribuições são sempre bem-vindas! Se você tem alguma sugestão ou gostari
 
 ## Links Importantes
 
-- [Meu LinkedIn](https://www.linkedin.com/in/bruno-bignotto-73a033209)
+- [Meu LinkedIn](https://www.linkedin.com/in/bruno-bignotto-152313372/)
 - [Portfólio no GitHub](https://github.com/bibruno)
 
 ## Licença
